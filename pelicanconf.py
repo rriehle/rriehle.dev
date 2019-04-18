@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'Richard Riehle'
-SITENAME = 'Richard Riehle .dev'
+SITENAME = 'rriehle.dev'
 SITEURL = 'https://www.rriehle.dev'
 
 PATH = 'content'
@@ -32,4 +32,6 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
 
-THEME='../pelican-clean-blog'
+# THEME='../pelican-clean-blog'
+# THEME='../medius'
+THEME='../pelican-alchemy/alchemy'
